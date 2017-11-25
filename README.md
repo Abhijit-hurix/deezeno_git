@@ -13,6 +13,6 @@ This repository is having Server part and Client part both. For Server side I us
 > cd ..
 > npm run dev
 ```
-## Open your browser and enter url http://localhost:2000 will take you to the Home Screen
-## Use URL http://localhost:2000/accordian to visit accordian page.
-## Use URL http://localhost:2000/checkbox to visit checkbox page.
+# Open your browser and enter url http://localhost:2000 will take you to the Home Screen
+# Use URL http://localhost:2000/accordian to visit accordian page.
+# Use URL http://localhost:2000/checkbox to visit checkbox page.
