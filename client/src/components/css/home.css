@@ -1,4 +1,6 @@
 .homePage{
-	position:relative;
-	text-align: center;
+	position: absolute;
+    text-align: center;
+    top: 43%;
+    width: 100%;
 }

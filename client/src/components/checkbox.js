@@ -29,7 +29,7 @@ class Controller extends Component {
     return (
       <div className="checkbox">
         <div className={display}></div>
-         <button type="checkbox"  value={label} checked={isChecked} onClick={this.toggleCheckboxChange.bind(this)}></button>
+         <input type="checkbox"  value={label} checked={isChecked} onChange={this.toggleCheckboxChange.bind(this)}/>
         <label onClick={this.toggleCheckboxChange.bind(this)}>{label}</label>
       </div>
     );
@@ -79,7 +79,6 @@ class Checkbox extends Component {
           <div className="question">{question}</div>
            <form onSubmit={this.handleFormSubmit}>
               {options.map((label,i)=><Controller label={label} handleCheckboxChange={this.toggleCheckbox.bind(this)} key={i} />)}
-
               <button className="submit" type="submit">Submit</button>
             </form>
          </div>   
